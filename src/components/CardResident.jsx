@@ -30,13 +30,13 @@ const CardResident = ({ url }) => {
                         <span>Episodes where appear: {resident?.episode.length}</span>
                     </div>
                     <div className='planet'>
-                        <img src="src/assets/img/Planet.png" alt="sss" />
+                        <img src="../../img/Planet.png" alt="sss" />
                     </div>
                     <div className='nave'>
-                        <img src="src/assets/img/nave.png" alt="sss" />
+                        <img src="../../img/nave.png" alt="sss" />
                     </div>
                     <div className='head'>
-                        <img src="src/assets/img/head.png" alt="sss" />
+                        <img src="../../img/head.png" alt="sss" />
                     </div>
                 </div>
             </article>

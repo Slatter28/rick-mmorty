@@ -38,7 +38,7 @@ function App() {
     <div className="App">
       <div className="App__header">
         <div className="App_fondo">
-          <img src="src/assets/img/fondo.png" alt="sss" />
+          <img src="../img/fondo.png" alt="sss" />
         </div>
         <div className="App__searchs">
           <div className="logo">
@@ -46,7 +46,7 @@ function App() {
           </div>
           <form onSubmit={handleSubmit} className="search-bar" >
             <input type="text" id="search"  placeholder="search id 1 to 126"/>
-            <button><img src="src/assets/img/search.png" alt="search" /></button>
+            <button><img src="../img/search.png" alt="search" /></button>
           </form>
           <Locations location={location} />
         </div>
