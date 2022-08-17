@@ -42,7 +42,7 @@ function App() {
         </div>
         <div className="App__searchs">
           <div className="logo">
-            <img src="src/assets/img/logo.png" alt="sss" />
+            <img src="../img/logo.png" alt="sss" />
           </div>
           <form onSubmit={handleSubmit} className="search-bar" >
             <input type="text" id="search"  placeholder="search id 1 to 126"/>
